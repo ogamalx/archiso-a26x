@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 
 rm -rf ~/custom-archiso
 mkdir -p ~/custom-archiso/CustomArchISO/airootfs/{etc/skel,etc/systemd/system/getty@tty1.service.d,home/arch,etc/xdg/openbox}
